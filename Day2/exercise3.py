@@ -1,4 +1,4 @@
-list = [1, 1, 2, 3, 5, 8, 13, 21, 34]
+list = [1, 1, 2, 3, 5, 8, 13, 21, 34,9]
 list_under_10=[]
 under_what = int(input("What number? "))
 
