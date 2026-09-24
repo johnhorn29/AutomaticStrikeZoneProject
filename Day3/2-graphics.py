@@ -8,7 +8,9 @@ def setup():
 def draw():
     background(220,36,74)
     fill(20,77,145)
-    rect(22,227,79,236)
+    stroke(0,255,255)
+    rect(2,227,24,59)
+    
 
 
 run(setup, draw)
