@@ -6,7 +6,9 @@ def setup():
     pass
 
 def draw():
-    pass
+    background(220,36,74)
+    fill(20,77,145)
+    rect(22,227,79,236)
 
 
 run(setup, draw)
