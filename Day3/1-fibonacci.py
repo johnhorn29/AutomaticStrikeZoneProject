@@ -13,3 +13,18 @@ def cf (c):
     return farenheight
 
 print(cf(0))
+
+
+def fib(seq):
+    if seq == 1:
+        return 1
+
+    if seq == 2:
+        return 1
+
+    if seq >= 3:
+        output = fib(seq-1) + fib(seq-2)
+        return output
+
+for i in range(30):
+    print(fib(i+1))
