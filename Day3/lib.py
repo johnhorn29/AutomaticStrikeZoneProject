@@ -79,6 +79,14 @@ def fill(r, g=None, b=0):
     tonyStank.noFill = False
     tonyStank.fillColor = parseColorRGB(r, g, b)
 
+def stroke(r, g=None, b=0):
+    global tonyStank
+    if g == None:
+        tonyStank.strokeColor = parseColorGrey(r)
+        return
+    tonyStank.noFill = False
+    tonyStank.strokeColor = parseColorRGB(r, g, b)
+
 
 def noFill():
     tonyStank.noFill = True
