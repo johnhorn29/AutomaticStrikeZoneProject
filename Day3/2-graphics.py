@@ -14,8 +14,9 @@ def draw():
     background(220,36,74)
     fill(20,77,145)
     stroke(0,255,255)
-    rect(x,227,24,59)
+    rect(x,y,24,59)
     x+=1
+    y+=1
     
 
 

@@ -1,4 +1,4 @@
-# Use variables to
+#
 
 from lib import *
 
