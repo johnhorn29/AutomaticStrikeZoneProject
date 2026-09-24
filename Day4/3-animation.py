@@ -1,4 +1,4 @@
-# Use variables to move shapes with the lib.py file
+# Use variables to
 
 from lib import *
 
